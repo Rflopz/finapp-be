@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "types": [
+      "bun-types"
+    ],
+    "paths": {
+      "@db/*": [
+        "./src/db/*"
+      ],
+      "@user/*": [
+        "./src/Modules/User/*"
+      ],
+      "@auth/*": [
+        "./src/Modules/Auth/*"
+      ],
+      "@libs/*": [
+        "./src/libs/*"
+      ]
+    }
+  }
+}

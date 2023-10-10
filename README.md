@@ -1,2 +1,8 @@
-# finapp-be
-finapp it's a personan finances manager, this repo includes the backend
+```
+bun install
+bun run dev
+```
+
+```
+open http://localhost:3000
+```
